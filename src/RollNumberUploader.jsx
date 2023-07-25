@@ -16,7 +16,7 @@ const RollNumberUploader = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/upload",
+        "https://speed-results-gct-backend.onrender.com/upload",
         formData,
         {
           responseType: "blob",
