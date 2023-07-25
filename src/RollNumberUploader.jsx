@@ -41,7 +41,7 @@ const RollNumberUploader = () => {
 
   return (
     <div className="roll-uploader">
-      <img src="src\assets\icons8-result-64.png" alt="some image" />
+      <img src="./assets/icons8-result-64.png" alt="some image" />
       <h1>Speed Results GCT</h1>
       <p>
         Unofficial web app to download multiple semester results in one click
