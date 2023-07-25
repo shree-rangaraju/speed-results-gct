@@ -43,7 +43,13 @@ const RollNumberUploader = () => {
     <div className="roll-uploader">
       <img src="src\assets\icons8-result-64.png" alt="some image" />
       <h1>Speed Results GCT</h1>
-      <p>unofficial web app to download multiple results in one click</p>
+      <p>
+        Unofficial web app to download multiple semester results in one click
+      </p>
+      <p>
+        Upon uploading a .txt file with roll numbers listed on separate lines,
+        you can download a zip file containing all the results.
+      </p>
       <h3>Upload Roll Numbers</h3>
       <Dropzone
         onDrop={(acceptedFiles) => setFile(acceptedFiles[0])}
